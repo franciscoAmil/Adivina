@@ -16,7 +16,7 @@
                var numero;
                var aleatorio = Math.floor(Math.random()* max - min + 1) + min;
               
-               for(intentos; intentos < 2; intentos++ )
+               for(intentos; intentos < 10; intentos++ )
                {
                        numero =parseInt( prompt(nombre+' ingresa un numero entre el: '+min+ ' y el '+max));
 
